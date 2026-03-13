@@ -578,7 +578,7 @@
 	<ItemGroup>
 		<Compile Include="Main.cs" />
 		<Compile Include="Properties/AssemblyInfo.cs" />
-		<Compile Include="Api/CustomCommandApi.cs" />
+		<Compile Include="../APIs/CustomCommandApi.cs" />
 	</ItemGroup>
 	
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
